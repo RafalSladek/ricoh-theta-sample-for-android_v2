@@ -1,0 +1,55 @@
+### Gradle ###
+# Exclude Folder List #
+.gradle/
+build/
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+project.properties
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse project files
+.classpath
+.project
+
+# MAC OS Finder stuff
+.DS_Store
+
+# Android Studio
+captures/
+
+#GeneratedPlaystore Artwork
+/tools/PlayStoreScreenshots/Screens/
+/tools/PlayStoreScreenshots/Results/
+
+# Google Services file
+/google-services.json
+
+# Automatically copied stuff
+src/amazon/java/com/autoscout24/ui/fragments/FullScreenMapFragment.java
+src/amazon/java/com/autoscout24/maps/LatLngWrapper.java
+
+src/autoscout24/java/com/autoscout24/ui/fragments/FullScreenMapFragment.java
+src/autoscout24/java/com/autoscout24/maps/LatLngWrapper.java
+src/autoscout24/java/com/autoscout24/utils/MapsServicesHelper.java
+
+src/amazon_google/
